@@ -1,14 +1,23 @@
-/* .smoke {
-  height: 100%;
-  width: 100%;
+
+@font-face {
+  font-family: "SpaceRanger";
+  src: local("SpaceRanger"), url("./fonts/SpaceRangerLaserItalic-copy.ttf") format("truetype");
+  font-weight: bold;
+
+}
+
+.dot {
+  border-radius: 50%;
+  align-content: flex-start;
   position: absolute;
-  top: 0;
-  object-fit: cover;
-  /* background-image: url(/public/img/master-ball-edit.png); */
+  top: 100px;
+  
+}
 .smoke {
   height: 100%;
   width: 100%;
 }
+
 .section {
   position: realtive;
   width: 100%;
@@ -20,12 +29,17 @@
 .section h1 {
   text-align: center;
   font-size: 6rem;
-  font-family: cursive;
   background: transparent;
   padding: 20px;
   margin: 15px;
   z-index: 1;
+  color: white;
+  font-family: "SpaceRanger";
+  display: flex;
+  margin-left: 340px;
+  margin-bottom: 50px;
 }
+
 body {
   background-color: #0b0b0b;
 }
@@ -34,170 +48,51 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-}
-/* div.loader {
-  background-image: url(/public/img/master-ball-edit.png);
-  height: 100px;
-  width: 100px;
-  margin-left: 600px
+} 
 
+/* @keyframes transitionOut{
+  100% {
+    transform: translate(0) ;
+  }
+  0% {
+    transform: translate(-100%);
+  }
 } */
 
-/* .loader {
-  transform: rotateZ(45deg);
-  perspective: 1000px;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  transform: rotate(360deg);
-  margin-top: 250px;
-  margin-left: 100px;
-
-  color: rgb(0, 0, 0);
-  display: fixed;
-  background-color: white;
-  
-}
-  .loader:before,
-  .loader:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: inherit;
-    height: inherit;
-    border-radius: 50%;
-    transform: rotateX(70deg);
-    animation: 1s spin linear infinite;
-  }
-  .loader:after {
-    color: #FF3D00;
-    transform: rotateY(70deg);
-    animation-delay: .4s;
-  }
-
-@keyframes rotate {
-  0% {
-    transform: translate(-50%, -50%) rotateZ(0deg);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotateZ(360deg);
-  }
+:root {
+  --point-color: rgb(255, 255, 255);
+  --size: 5px;
 }
 
-@keyframes rotateccw {
-  0% {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotate(-360deg);
-  }
-}
-
-@keyframes spin {
-  0%,
-  100% {
-    box-shadow: .2em 0px 0 0px currentcolor;
-  }
-  12% {
-    box-shadow: .2em .2em 0 0 currentcolor;
-  }
-  25% {
-    box-shadow: 0 .2em 0 0px currentcolor;
-  }
-  37% {
-    box-shadow: -.2em .2em 0 0 currentcolor;
-  }
-  50% {
-    box-shadow: -.2em 0 0 0 currentcolor;
-  }
-  62% {
-    box-shadow: -.2em -.2em 0 0 currentcolor;
-  }
-  75% {
-    box-shadow: 0px -.2em 0 0 currentcolor;
-  }
-  87% {
-    box-shadow: .2em -.2em 0 0 currentcolor;
-  }
-}
-/* .loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+.loader {
+  background-color: transparent;
+  position: absolute;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background: #333333;
-  transition: opacity 0.75s, visibility 0.75s; 
-  transition-duration: 1s;
-} */
-
-/* .loader--hidden {
-  opacity: 0;
-  visibility: hidden;
-} */
- 
-/* .loader::after {
-  content: "";
-  width: 0;
-      height: 0;
-      border-left: 50px solid transparent;
-      border-right: 50px solid transparent;
-      border-bottom: 100px solid red;
-  animation: loading 0.75s ease infinite; */
-  
-
-/* @keyframes loading {
-  from { transform: roate(0turn) }
-  to { transform: rotate(1turn) }
-
-} */
-/* @keyframes rotate {
-  0% {
-    transform: translate(-50%, -50%) rotateZ(0deg);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotateZ(360deg);
-  }
+  align-content: center; 
+  justify-content: center;  
+  z-index: 100000;
+  margin-left: 800px;
 }
 
-@keyframes rotateccw {
-  0% {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotate(-360deg);
-  }
+.loader__element {
+  border-radius: 100%;
+  border: var(--size) solid var(--point-color);
+  margin: calc(var(--size)*2);
 }
 
-@keyframes spin {
-  0%,
-  100% {
-    box-shadow: .2em 0px 0 0px currentcolor;
-  }
-  12% {
-    box-shadow: .2em .2em 0 0 currentcolor;
-  }
-  25% {
-    box-shadow: 0 .2em 0 0px currentcolor;
-  }
-  37% {
-    box-shadow: -.2em .2em 0 0 currentcolor;
-  }
-  50% {
-    box-shadow: -.2em 0 0 0 currentcolor;
-  }
-  62% {
-    box-shadow: -.2em -.2em 0 0 currentcolor;
-  }
-  75% {
-    box-shadow: 0px -.2em 0 0 currentcolor;
-  }
-  87% {
-    box-shadow: .2em -.2em 0 0 currentcolor;
-  }
-} */
+.loader__element:nth-child(1) {
+  animation: preloader .6s ease-in-out alternate infinite;
+}
+.loader__element:nth-child(2) {
+  animation: preloader .6s ease-in-out alternate .2s infinite;
+}
+
+.loader__element:nth-child(3) {
+  animation: preloader .6s ease-in-out alternate .4s infinite;
+}
+@keyframes preloader {
+  100% { transform: scale(2); }
+}
+
+
