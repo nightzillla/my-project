@@ -24,7 +24,11 @@
   height: 100%;
   display: flex;
   align-items: center;
-  animation: section 0.75s;
+  transition: opacity 0.75s, visibilty 0.75s; 
+}
+.section--hidden {
+  opacity: 0;
+  visibility: hidden;
 }
 /* 
 @keyframes section {

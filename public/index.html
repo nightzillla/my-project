@@ -4,28 +4,22 @@
     <meta charset="utf-8" />
     <title>React App</title>
     <link href="src/index.css">
-    <link href="src/App.css">
-    <!-- <script>
-      window.addEventListener("video-container", () => {
-        document.querySelector(".video-container").classList.add("video-hidden");
-      });
-    </script> -->
+    <link href="src/App.css"> 
   </head>
-  <!-- <script>
-    window.addEventListener("load", () => {
-    const loader = document.querySelector(".loader");
-  
-    loader.classList.add("loader--hidden");
-  
-    loader.addEventListener("transitionend", () => {
-      document.body.removeChild(loader);
+  <script>
+    window.addEventListener("section", () => {
+    const section = document.querySelector(".section");
+
+    section.classList.add("section--hidden");
+
+    section.addEventListener("transitionend", () => {
+        document.body.removeChild(section);
     });
-  });
-  </script> -->
+  </script>
   <body>
     <div class="section">
       <h1> Loading </h1>
-      <div class="video-container video-hidden">
+      <div class="video-container">
       <video autoplay muted loop class="smoke">
         <source src="video/smoke.2 copy.mp4">
       </video>
