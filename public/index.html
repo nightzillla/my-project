@@ -7,15 +7,16 @@
     <link href="src/App.css"> 
   </head>
   <script>
-    window.addEventListener("section", () => {
-    const section = document.querySelector(".section");
+          window.addEventListener("section", () => {
+          const section = document.querySelector(".section");
 
-    section.classList.add("section--hidden");
+          section.classList.add("section--hidden");
 
-    section.addEventListener("transitionend", () => {
-        document.body.removeChild(section);
-    });
-  </script>
+          section.addEventListener("transitionend", () => {
+              document.body.removeChild(section);
+         });
+      });
+    </script>
   <body>
     <div class="section">
       <h1> Loading </h1>
@@ -28,6 +29,7 @@
       <span class="loader__element"></span>
       <span class="loader__element"></span>
       <span class="loader__element"></span>
-    </div>
+  </div>
+  <h2>About Me</h2>
   </body>
-</html>
+  </html>
