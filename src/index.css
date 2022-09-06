@@ -6,6 +6,32 @@
 
 }
 
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.video-container video {
+  height: 125%;
+  min-width: 100%;
+  object-fit: fill;
+}
+
+.loading-wrapper {
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
 
 .dot {
   border-radius: 50%;
@@ -20,13 +46,14 @@
 }
  
 .section {
-  position: realtive;
+  position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   transition: opacity 0.75s, visibilty 0.75s; 
   flex-wrap: wrap;
+  justify-content: center;
 }
 .section--hidden {
   opacity: 0;
@@ -49,14 +76,11 @@
   text-align: center;
   font-size: 6rem;
   background: transparent;
-  padding: 20px;
   margin: 15px;
   z-index: 1;
   color: white;
   font-family: "SpaceRanger";
   display: flex;
-  margin-left: 340px;
-  margin-bottom: 50px;
 }
 
 body {
@@ -76,13 +100,12 @@ body {
 
 .loader {
   background-color: transparent;
-  position: absolute;
   display: flex;
   align-items: center;
   align-content: center; 
   justify-content: center;  
   z-index: 100000;
-  margin-left: 800px;
+  left: 100%;
 }
 
 .loader__element {
