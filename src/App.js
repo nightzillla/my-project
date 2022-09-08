@@ -1,8 +1,7 @@
 // import React from "react";
-import Clock from './components/Clock'
-// import Video from './components/smoke'
-import Video from './/video/smoke3.mp4'
 import React, {useState, useEffect} from "react";
+import Clock from './components/Clock'
+import Video from './/video/smoke3.mp4'
 import "./App.css";
 
 function App() {
@@ -10,11 +9,11 @@ function App() {
     useEffect(() => {
         setTimeout(() => {
             setIsLoading(false)
-        }, 2000); 
+        }, 8000); 
     })
     return (
         <div>
-            {isLoading==true?
+            {isLoading===true?
             <Video/>: 
             <Clock/>
             }      
@@ -37,6 +36,5 @@ function App() {
 //       </div>
 //     );
 //   }
-
 
 export default App;
