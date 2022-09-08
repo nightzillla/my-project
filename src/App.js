@@ -1,6 +1,7 @@
-import React from "react";
+// import React from "react";
 import Clock from './components/Clock'
-import Video from './video/smoke3'
+// import Video from './components/smoke'
+import Video from './/video/smoke3.mp4'
 import React, {useState, useEffect} from "react";
 import "./App.css";
 
@@ -9,12 +10,12 @@ function App() {
     useEffect(() => {
         setTimeout(() => {
             setIsLoading(false)
-        }, 8000); 
+        }, 2000); 
     })
     return (
         <div>
             {isLoading==true?
-            <Video/>:
+            <Video/>: 
             <Clock/>
             }      
         </div>
