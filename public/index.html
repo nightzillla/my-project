@@ -5,20 +5,12 @@
     <title>React App</title>
     <link href="src/index.css">
     <link href="src/App.css"> 
+    <script src="src/App.js"></script>
   </head>
-  <script>
-          window.addEventListener("section", () => {
-          const section = document.querySelector(".section");
-
-          section.classList.add("section--hidden");
-
-          section.addEventListener("transitionend", () => {
-              document.body.removeChild(section);
-         });
-      });
-    </script>
   <body>
-  <div class="loading-wrapper">
+    <h1>About me</h1>
+    <div id="root"></div>
+  <!-- <div class="loading-wrapper">
     <div class="video-container">
       <video autoplay muted loop class="smoke">
         <source src="video/smoke.2 copy.mp4">
@@ -26,13 +18,13 @@
     </div>
     <div class="section">
       <h1> Loading </h1>
-    <div class="loader">
+    <div class="loader"> 
         <span class="loader__element"></span>
         <span class="loader__element"></span>
         <span class="loader__element"></span>
       </div>
     </div>
-  </div>
-  <h2>About Me</h2>
+  </div> -->
+
   </body>
   </html>
