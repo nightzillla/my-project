@@ -1,7 +1,7 @@
 // import React from "react";
 import React, {useState, useEffect} from "react";
 import Clock from './components/Clock'
-import Video from './/video/smoke3.mp4'
+import Video from './video/smoke3.mp4'
 import "./App.css";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <div>
             {isLoading===true?
             <Video/>: 
-            <Clock/>
+            <hidden/>
             }      
         </div>
     );
