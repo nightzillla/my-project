@@ -1,6 +1,7 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
 /* Custom font for webpage */
 @font-face {
   font-family: "SpaceRanger";
@@ -110,6 +111,10 @@ h1 {
 
 .loader__element:nth-child(3) {
   animation: preloader .6s ease-in-out alternate .4s infinite;
+}
+
+.container {
+  overflow: visible!important;
 }
 @keyframes preloader {
   100% { transform: scale(2); }
