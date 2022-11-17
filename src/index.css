@@ -1,9 +1,10 @@
-
+/* Custom font for webpage */
 @font-face {
   font-family: "SpaceRanger";
-  src: local("SpaceRanger"), url("./fonts/SpaceRangerLaserItalic-copy.ttf") format("truetype");
+  src: local("SpaceRanger"), url("./fonts/SpaceRangerHalftoneItalic.ttf") format("truetype");
   font-weight: bold;
 }
+/* src: local("SpaceRanger"), url("./fonts/SpaceRangerLaserItalic-copy.ttf") format("truetype"); */
 
 body {
   background-color: #ffff

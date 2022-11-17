@@ -15,9 +15,3 @@ h1 {
     top: 0;
     left: 0;
   }
-  #navBar {
-    display: flex;
-    color: white;
-    justify-content: center;
-  
-  }
