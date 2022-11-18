@@ -14,7 +14,7 @@ function HomePage() {
       </div>
       <div className="section">
         <h1>nightzillla website coming soon</h1>
-        <NavBar/>
+        {/* <NavBar/> */}
       <div className="loader"> 
         <span className="loader__element"></span>
         <span className="loader__element"></span>
