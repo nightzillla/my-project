@@ -23,8 +23,8 @@ const handlerChange = (e) => {
     </div>
     <div>
       {click &&(<Link to="aboutme"><h3>About Me</h3></Link>)}
-      {click && (<h3>Projects</h3>)}
-      {click && (<h3>Bootcamp</h3>)}
+      {click &&(<Link to="projects"><h3>Projects</h3></Link>)}
+      {click &&(<Link to="bootcamp"><h3>Bootcamp</h3></Link>)}
     </div>
     {/* <div data-dropdown="menu" class="dropdown-menu">
         This is the menu
