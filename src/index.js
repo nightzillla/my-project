@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './fonts/SpaceRangerLaserItalic-copy.ttf';
+import './fonts/SpaceRangerLaserItalic.ttf';
 // import Loader from './Components/Loader/index';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

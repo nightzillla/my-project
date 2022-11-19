@@ -16,12 +16,12 @@ function HomePage() {
       </div>
       <div className="section">
       <NavBars/>
-        <h1>nightzillla website coming soon</h1> 
-      <div className="loader"> 
+        <h1>welcome to nightzillla</h1> 
+      {/* <div className="loader"> 
         <span className="loader__element"></span>
         <span className="loader__element"></span>
         <span className="loader__element"></span>
-      </div>
+      </div> */}
     </div>
     </>
   )

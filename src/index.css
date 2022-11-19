@@ -1,23 +1,47 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
 /* Custom font for webpage */
 @font-face {
   font-family: "SpaceRanger";
-  src: local("SpaceRanger"), url("./fonts/SpaceRangerHalftoneItalic.ttf") format("truetype");
+  src: local("SpaceRanger"), url("./fonts/SpaceRangerHalftoneItalic.ttf")format("truetype");
   font-weight: bold;
 }
-/* src: local("SpaceRanger"), url("./fonts/SpaceRangerLaserItalic-copy.ttf") format("truetype"); */
+@font-face {
+  font-family: "SpaceRanger2";
+  src: local("SpaceRanger2"), url("./fonts/SpaceRangerLaserItalic.ttf")format("truetype");
+  font-weight: bold;
+}
 
 body {
   background-color: #ffff
-  /* background-color: #0b0b0b; */
 }
-/* h1  */
+
+/* FONTS */
 h1 {
+  font-family: "SpaceRanger";
   color:#ffff
 }
+h3 {
+  font-family: "SpaceRanger2";
+  color:#ffff;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  .video {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
 
 /* Video Component */
 .video-container {
@@ -122,9 +146,7 @@ h1 {
   bottom:80%;
   left: 80%;
   top:60%;
-}
-h3 {
-  color:#ffff;
+  margin-left: 90px;
 }
 .section2 {
   position: absolute;
@@ -137,4 +159,8 @@ h3 {
   justify-content: center;
   bottom:30%;
   left:30%;
+}
+.text-link {
+  color: inherit;
+  text-decoration: inherit;
 }

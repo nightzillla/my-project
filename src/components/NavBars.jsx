@@ -1,6 +1,6 @@
 import React from 'react'
 import {useState} from 'react'
-import sword from '../img/hamburger.png'
+import pngwing from '../img/pngwing.png'
 import {Link} from 'react-router-dom'
 
 function NavBars() {
@@ -18,13 +18,13 @@ const handlerChange = (e) => {
     <div data-dropdown="parent" class="dropdown-parent">
     <div data-dropdown="toggle" class="dropdown-toggle">
         <div>
-            <img className="hamburger"onClick={handlerChange} src={sword} />
+            <img className="hamburger"onClick={handlerChange} src={pngwing} />
         </div>
     </div>
     <div>
-      {click &&(<Link to="aboutme"><h3>About Me</h3></Link>)}
-      {click &&(<Link to="projects"><h3>Projects</h3></Link>)}
-      {click &&(<Link to="bootcamp"><h3>Bootcamp</h3></Link>)}
+      {click &&(<Link className='text-link'to="aboutme"><h3>About Me</h3></Link>)}
+      {click &&(<Link className='text-link'to="projects"><h3>Projects</h3></Link>)}
+      {click &&(<Link className='text-link'to="bootcamp"><h3>Bootcamp</h3></Link>)}
     </div>
     {/* <div data-dropdown="menu" class="dropdown-menu">
         This is the menu
