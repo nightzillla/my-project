@@ -14,12 +14,12 @@ body {
   background-color: #ffff
   /* background-color: #0b0b0b; */
 }
-
-/* H1  */
+/* h1  */
 h1 {
   color:#ffff
 }
 
+/* Video Component */
 .video-container {
   position: absolute;
   top: 0;
@@ -29,14 +29,12 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 .video-container video {
   height: 125%;
   min-width: 100%;
   object-fit: cover;
 }
-
 .loading-wrapper {
   display: flex;
   position: fixed;
@@ -46,7 +44,6 @@ h1 {
   right: 0;
   overflow: hidden;
 }
-
 .dot {
   border-radius: 50%;
   align-content: flex-start;
@@ -120,4 +117,24 @@ h1 {
   100% { transform: scale(2); }
 }
 
-
+/* Icon */
+.hamburger{
+  bottom:80%;
+  left: 80%;
+  top:60%;
+}
+h3 {
+  color:#ffff;
+}
+.section2 {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.75s, visibilty 0.75s; 
+  flex-wrap: wrap;
+  justify-content: center;
+  bottom:30%;
+  left:30%;
+}
