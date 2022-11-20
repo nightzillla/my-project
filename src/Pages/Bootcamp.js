@@ -1,43 +1,40 @@
 import React from 'react'
 import Javier from '../img/NFT/Javier.png'
+import spaceWallpaper from '../img/space-wallpaper.jpg'
+import {Link} from 'react-router-dom'
 
 function Bootcamp() {
   return (
+
     // <div>
     //   <h1>Bootcamp</h1>
     //   <img src={Javier}/>
     // </div>
-    <div class="container my-12 mx-auto px-4 md:px-12">
-    <div class="flex flex-wrap 2xl:w-1/ lg:w-1/4 md:w-1/6 sm:w-1/6">
-           {/* SIZE OF THE CARDS */}
-            <article class="overflow-hidden rounded-lg shadow-lg">
-                <a href="#">
-                    <img src={Javier}/>
-                </a>
-                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                    <h1 class="text-lg">
-                        <a class="no-underline hover:underline text-black" href="#">
-                            Article Title
-                        </a>
-                    </h1>
-                </header>
-
-                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                    <a class="flex items-center no-underline hover:underline text-black" href="#">
-                       
-                        <p class="ml-2 text-sm">
-                            Author Name
-                        </p>
-                    </a>
-                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                        <span class="hidden">Like</span>
-                        <i class="fa fa-heart"></i>
-                    </a>
-                </footer>
-
+    // <div className="main-card container my-60 ml-100 px-4 grid xl:grid-cols-1 ">
+    // <div className="flex flex-wrap 2xl:w-1 lg:w-1/4 md:w-1/6 sm:w-1/6">
+    <>
+     <div className="weywot">
+          <h2 class="text-white text-9xl">WeyWot</h2>
+        </div>
+    <div className="main-card container my-60 ml-100 px-4 grid xl:grid-cols-1 ">
+      <div className="flex flex-wrap">
+            {/* SIZE OF THE CARDS */}
+        <img className='space-wallpaper'src={spaceWallpaper}/>
+        {/* <div className="weywot">
+          <h2 class="text-white text-9xl">WeyWot</h2>
+        </div> */}
+          <div className='card-javier'>
+            <article className="main-header overflow-hidden rounded-lg shadow-lg">
+                <img className="NFT-img"src={Javier}/>
+              <header class="flex items-center justify-between leading-tight p-2 md:p-4 bg-white border">
+                  <h5 class="no-underline text-black strong">Javier</h5>
+                  <a href="https://google.com">Github</a>
+              </header>
             </article>
-        </div>
-        </div>
+          </div>
+      </div>
+    </div>
+    </>
   )
 }
 

@@ -1,6 +1,5 @@
 import React from "react";
 // import React, {useState, useEffect} from "react";
-import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from "./components/HomePage";
 import AboutMe from "./Pages/AboutMe";
