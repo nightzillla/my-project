@@ -7,7 +7,7 @@ import NFTcard from './NFTcard'
 import Stepbro from '../../img/NFT/Stepbro.png'
 import Arron from '../../img/NFT/Arron.png'
 import Ceaser from '../../img/NFT/Cesar.png'
-import Daniel from '../../img/NFT/Daniel .png'
+import Daniel from '../../img/NFT/Daniel.png'
 import Danny from '../../img/NFT/Danny.jpg'
 import David from '../../img/NFT/David.png'
 import Deshawn from '../../img/NFT/Deshawn.png'
@@ -62,7 +62,6 @@ function Bootcamp() {
         <NFTcard className="NFTcards"img={jasmine} name={"jasmine"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={Rich} name={"Rich"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={Frances} name={"Frances"} href={"www.google.com"}/>
-
       </div>
       <div>
       <BootcampNavBar className="bootcampNavBar"/>
