@@ -164,6 +164,7 @@ h6 {
   left: 80%;
   top:60%;
   margin-left: 90px;
+  z-index: 2;
 }
 .section2 {
   position: absolute;
