@@ -24,6 +24,10 @@ import rodrigo from '../../img/NFT/rodrigo.png'
 import broMason from '../../img/NFT/step-bro-mason.png'
 import Stephen from '../../img/NFT/Stephen.png'
 import val from '../../img/NFT/val.png'
+import Adien from '../../img/NFT/Adien.png'
+import Cleb from '../../img/NFT/Cleb.png'
+import Test from '../../img/NFT/Test.png'
+
 
 function Bootcamp() {
   return (
@@ -35,6 +39,8 @@ function Bootcamp() {
     // <div className="main-card container my-60 ml-100 px-4 grid xl:grid-cols-1 ">
     // <div className="flex flex-wrap 2xl:w-1 lg:w-1/4 md:w-1/6 sm:w-1/6">
     <>
+            <BootcampNavBar className="bootcampNavBar"/>
+
       <div className="weywot">
         <h2 className="text-white text-9xl">WeyWot</h2>
         <img className='space-wallpaper'src={spaceWallpaper}/>
@@ -51,6 +57,7 @@ function Bootcamp() {
         <NFTcard className="NFTcards"img={Fernando} name={"Fernando"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={Arron} name={"AAron"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={Deshawn} name={"Deshawn"} href={"www.google.com"}/>
+        <NFTcard className="NFTcards"img={Frances} name={"Frances"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={John} name={"John"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={naz} name={"naz"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={Stephen} name={"Stephen"} href={"www.google.com"}/>
@@ -61,10 +68,11 @@ function Bootcamp() {
         <NFTcard className="NFTcards"img={Daniel} name={"Daniel"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={jasmine} name={"jasmine"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={Rich} name={"Rich"} href={"www.google.com"}/>
-        <NFTcard className="NFTcards"img={Frances} name={"Frances"} href={"www.google.com"}/>
+        <NFTcard className="NFTcards"img={Adien} name={"Adien"} href={"www.google.com"}/>
+        <NFTcard className="NFTcards"img={Cleb} name={"Cleb"} href={"www.google.com"}/>
+        <NFTcard className="NFTcards"img={Test} name={"Test"} href={"www.google.com"}/>
       </div>
       <div>
-      <BootcampNavBar className="bootcampNavBar"/>
       </div>
     </>
   )

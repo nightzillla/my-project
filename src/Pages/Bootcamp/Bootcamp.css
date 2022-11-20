@@ -4,8 +4,11 @@
   z-index: -5;
 }
 .bootcampNavBar{
-  position: absolute;
-  z-index: 5!important;
+  position: relative;
+  z-index: 2;
+}
+.section2{
+  z-index: 2;
 }
 .weywot{
     position: absolute;
