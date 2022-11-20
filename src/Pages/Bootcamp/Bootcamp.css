@@ -1,0 +1,62 @@
+/* BOOTCAMP WALLPAPER */
+.space-wallpaper{
+  position: absolute;
+}
+.BootcampNavBar{
+  z-index: -1
+}
+.weywot{
+    position: absolute;
+    z-index: 1;
+    margin-left: 450px;
+    margin-top: 250px;
+    font-family: "FastHand";
+  }
+  .space-wallpaper{
+    position: relative;
+    z-index: -1;
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+  
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .NFTJavier{
+    padding-left: 580px;
+    padding-top: 500px;
+  }
+  .NFTcardHolders{
+    padding-left: 60px;
+    padding-top: 50px;
+  }
+  .NFT-img{
+    padding-top: 30px;
+  }
+  .card-javier  {
+    z-index: 2;
+    /* align-self: center;
+    flex-direction:row; */
+    /* margin-left: 130px;
+    margin-top: 190px; */
+  }
+  .card-javier:hover{
+    transform: scale(1.1);
+  }
+  .container {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+    }
+  *{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }

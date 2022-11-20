@@ -22,6 +22,7 @@ const handlerChange = (e) => {
         </div>
     </div>
     <div>
+      {click &&(<Link className='text-link'to="/"><h3>Home</h3></Link>)}
       {click &&(<Link className='text-link'to="aboutme"><h3>About Me</h3></Link>)}
       {click &&(<Link className='text-link'to="projects"><h3>Projects</h3></Link>)}
       {click &&(<Link className='text-link'to="bootcamp"><h3>Bootcamp</h3></Link>)}
