@@ -25,7 +25,7 @@ import broMason from '../../img/NFT/step-bro-mason.png'
 import Stephen from '../../img/NFT/Stephen.png'
 import val from '../../img/NFT/val.png'
 import Adien from '../../img/NFT/Adien.png'
-import Cleb from '../../img/NFT/Cleb.png'
+import Caleb from '../../img/NFT/Caleb.png'
 import Test from '../../img/NFT/Test.png'
 import Gonzo from '../../img/NFT/Gonzo.png'
 
@@ -46,7 +46,7 @@ function Cohort() {
         <NFTcard className="NFTcards"img={broMason} name={"Mason"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={David} name={"David"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={Jason} name={"Jason"} href={"www.google.com"}/>
-        <NFTcard className="NFTcards"img={Fernando} name={"Fernando"} href={"www.google.com"}/>
+        <NFTcard className="NFTcards"img={Fernando} name={"Fernando"} href={"https://github.com/fernandolopez32"}/>
         <NFTcard className="NFTcards"img={Arron} name={"AAron"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={Deshawn} name={"Deshawn"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={Frances} name={"Frances"} href={"www.google.com"}/>
@@ -61,7 +61,7 @@ function Cohort() {
         <NFTcard className="NFTcards"img={jasmine} name={"jasmine"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={Rich} name={"Rich"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={Adien} name={"Adien"} href={"www.google.com"}/>
-        <NFTcard className="NFTcards"img={Cleb} name={"Cleb"} href={"www.google.com"}/>
+        <NFTcard className="NFTcards"img={Caleb} name={"Caleb"} href={"https://github.com/theCEO1999"}/>
         <NFTcard className="NFTcards"img={Test} name={"Test"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={Gonzo} name={"Gonzo"} href={"www.google.com"}/>
       </div>
