@@ -28,10 +28,10 @@
   width: 100%;
   height: auto;
       
-    /* Set up positioning */
-    position: fixed;
-    top: 0;
-    left: 0;
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 .NFTJavier{
   padding-left: 580px;
@@ -44,6 +44,9 @@
 }
 .NFT-img{
   padding-top: 0px;
+}
+.card-nft:hover  {
+  transform: scale(1.1);
 }
 .card-nft  {
   z-index: 2;
