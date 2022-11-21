@@ -36,11 +36,11 @@ function Bootcamp() {
         <h2 className="text-white text-9xl">WeyWot</h2>
         <img className='space-wallpaper'src={spaceWallpaper}/>
       </div> {/* end of weywot */}
-      <div className="NFTJavier Container grid gird-flow-row">
+      <div className="NFTJavier Container grid grid-flow-row">
         <NFTcard className="NFTcards"img={Javier} name={"Javier"} href={"www.google.com"}/>
       </div>
-      <div className="NFTcardHolders flex flex-wrap justify-evenly">
-        <NFTcard className="NFTcards"img={Danny} name={"nightzillla"} href={"www.google.com"}/>
+      <div className="NFTcardHolders flex flex-wrap justify-between ">
+        <NFTcard className="NFTcards"img={Danny} name={"nightzillla"} href={"https://github.com/nightzillla"}/>
         <NFTcard className="NFTcards mt-6"img={Stepbro} name={"x"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={broMason} name={"Mason"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={David} name={"David"} href={"www.google.com"}/>
