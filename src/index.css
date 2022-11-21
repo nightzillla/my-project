@@ -13,11 +13,6 @@
   font-weight: bold;
 }
 @font-face {
-  font-family: "MineCraft";
-  src: local("MineCraft"), url("./fonts/Minecraft.ttf")format("truetype");
-  font-weight: bold;
-}
-@font-face {
   font-family: "FastHand";
   src: local("FastHand"), url("./fonts/FastHand.ttf")format("truetype");
   font-weight: bold;
@@ -40,12 +35,13 @@ h3 {
   font-family: "SpaceRanger2";
   color:#ffff;
 }
-h4 {
-  font-family: "MineCraft";
+h4{
+  font-family: "SpaceRanger2"
 }
 h6 {
   font-family: "FastHand"
 }
+
 
 .container {
     position: relative;
