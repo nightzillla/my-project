@@ -3,7 +3,7 @@
   position: relative;
   z-index: -5;
 }
-.bootcampNavBar{
+.cohortNavBar{
   position: relative;
   z-index: 2;
 }
@@ -75,6 +75,6 @@
 .ProjectsText:hover {
   transform: scale(1.1);
 }
-.BootcampText:hover {
+.cohortText:hover {
   transform: scale(1.1);
 }

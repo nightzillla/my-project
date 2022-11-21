@@ -3,7 +3,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from "./components/HomePage";
 import AboutMe from "./Pages/AboutMe/AboutMe";
-import Bootcamp from "./Pages/Bootcamp/Bootcamp";
+import Cohort from "./Pages/Cohort/Cohort";
 import Gallery from "./Pages/Gallery/Gallery";
 import Projects from "./Pages/Projects/Projects";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -17,7 +17,7 @@ function App () {
                 <Routes>
                     <Route path="/" element={<HomePage/>}/>
                     <Route path="/aboutme" element={<AboutMe/>}/>
-                    <Route path="/bootcamp" element={<Bootcamp/>}/>
+                    <Route path="/cohort" element={<Cohort/>}/>
                     <Route path="/gallery" element={<Gallery/>}/>
                     <Route path="/projects" element={<Projects/>}/>
                 </Routes>

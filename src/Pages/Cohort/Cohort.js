@@ -1,8 +1,8 @@
 import React from 'react'
 import spaceWallpaper from '../../img/space-wallpaper.jpg'
 import {Link} from 'react-router-dom'
-import BootcampNavBar from './BootcampNavBar'
-import './Bootcamp.css'
+import CohortNavBar from './CohortNavBar'
+import './Cohort.css'
 import NFTcard from './NFTcard'
 import Stepbro from '../../img/NFT/Stepbro.png'
 import Arron from '../../img/NFT/Arron.png'
@@ -27,11 +27,12 @@ import val from '../../img/NFT/val.png'
 import Adien from '../../img/NFT/Adien.png'
 import Cleb from '../../img/NFT/Cleb.png'
 import Test from '../../img/NFT/Test.png'
+import Gonzo from '../../img/NFT/Gonzo.png'
 
-function Bootcamp() {
+function Cohort() {
   return (
     <>
-      <BootcampNavBar className="bootcampNavBar"/>
+      <CohortNavBar className="cohortNavBar"/>
       <div className="weywot">
         <h2 className="text-white text-9xl">WeyWot</h2>
         <img className='space-wallpaper'src={spaceWallpaper}/>
@@ -62,6 +63,7 @@ function Bootcamp() {
         <NFTcard className="NFTcards"img={Adien} name={"Adien"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={Cleb} name={"Cleb"} href={"www.google.com"}/>
         <NFTcard className="NFTcards"img={Test} name={"Test"} href={"www.google.com"}/>
+        <NFTcard className="NFTcards"img={Gonzo} name={"Gonzo"} href={"www.google.com"}/>
       </div>
       <div>
       </div>
@@ -69,4 +71,4 @@ function Bootcamp() {
   )
 }
 
-export default Bootcamp
+export default Cohort

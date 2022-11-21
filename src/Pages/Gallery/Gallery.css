@@ -74,3 +74,16 @@ body {
     0 20.9px 25.1px rgba(0, 0, 0, 0.043),
     0 50px 60px rgba(0, 0, 0, 0.06);
   }
+  .homeGalleryNavBar:hover{
+    transform: scale(1.1);
+  }
+  .aboutMeGalleryNavBar:hover{
+    transform: scale(1.1);
+  }
+  .cohortGalleryNavBar:hover{
+    transform: scale(1.1);
+  }
+  .projectsGalleryNavBar:hover{
+    transform: scale(1.1);
+  }
+ 
