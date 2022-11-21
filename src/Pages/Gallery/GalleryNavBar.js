@@ -1,9 +1,9 @@
 import React from 'react'
-import './Portfolio.css'
+import './Gallery.css'
 import {Link} from 'react-router-dom'
 
 
-function PortfolioNavBar() {
+function GalleryNavBar() {
   return (
     <>
     <nav class="bg-white px-2 sm:px-4 rounded dark:bg-white-300">
@@ -35,4 +35,4 @@ function PortfolioNavBar() {
   )
 }
 
-export default PortfolioNavBar
+export default GalleryNavBar

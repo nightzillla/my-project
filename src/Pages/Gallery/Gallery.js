@@ -1,21 +1,21 @@
 import React from 'react'
-import './Portfolio.css'
-import './PortfolioNavBar'
-import World from '../../img/Portfolio/world.jpg'
-import Sedona from '../../img/Portfolio/sedona.jpg'
-import NewMexico from '../../img/Portfolio/new-mexico.jpg'
-import Inception from '../../img/Portfolio/inception.jpg'
-import HTown from '../../img/Portfolio/h-town.jpg'
-import Pearl from '../../img/Portfolio/pearl.jpg'
-import SmokeBomb from '../../img/Portfolio/smoke-bomb.jpg'
-import Stairs from '../../img/Portfolio/stairs.jpg'
-import Hurricane from '../../img/Portfolio/hurricane.jpg'
-import PortfolioNavBar from './PortfolioNavBar'
+import './Gallery.css'
+import './GalleryNavBar'
+import World from '../../img/Gallery/world.jpg'
+import Sedona from '../../img/Gallery/sedona.jpg'
+import NewMexico from '../../img/Gallery/new-mexico.jpg'
+import Inception from '../../img/Gallery/inception.jpg'
+import HTown from '../../img/Gallery/h-town.jpg'
+import Pearl from '../../img/Gallery/pearl.jpg'
+import SmokeBomb from '../../img/Gallery/smoke-bomb.jpg'
+import Stairs from '../../img/Gallery/stairs.jpg'
+import Hurricane from '../../img/Gallery/hurricane.jpg'
+import GalleryNavBar from './GalleryNavBar'
 
-function Portfolio() {
+function Gallery() {
   return (
     <>
-    <PortfolioNavBar/>
+    <GalleryNavBar/>
     <div className="container">
       <div className="content">
         <div className="wrapper">
@@ -71,4 +71,4 @@ function Portfolio() {
   )
 }
 
-export default Portfolio
+export default Gallery

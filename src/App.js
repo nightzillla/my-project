@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from "./components/HomePage";
 import AboutMe from "./Pages/AboutMe/AboutMe";
 import Bootcamp from "./Pages/Bootcamp/Bootcamp";
-import Portfolio from "./Pages/Portfolio/Portfolio";
+import Gallery from "./Pages/Gallery/Gallery";
 import Projects from "./Pages/Projects/Projects";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
@@ -18,7 +18,7 @@ function App () {
                     <Route path="/" element={<HomePage/>}/>
                     <Route path="/aboutme" element={<AboutMe/>}/>
                     <Route path="/bootcamp" element={<Bootcamp/>}/>
-                    <Route path="/portfolio" element={<Portfolio/>}/>
+                    <Route path="/gallery" element={<Gallery/>}/>
                     <Route path="/projects" element={<Projects/>}/>
                 </Routes>
              </Router>
