@@ -22,11 +22,11 @@ const handlerChange = (e) => {
         </div>
     </div>
     <div>
-      {click &&(<Link className='text-link'to="/"><h3>Home</h3></Link>)}
-      {click &&(<Link className='text-link'to="/aboutme"><h3>About Me</h3></Link>)}
-      {click &&(<Link className='text-link'to="/portfolio"><h3>Portfolio</h3></Link>)}
-      {click &&(<Link className='text-link'to="/projects"><h3>Projects</h3></Link>)}
-      {click &&(<Link className='text-link'to="/bootcamp"><h3>Bootcamp</h3></Link>)}
+      {click &&(<Link className='text-link'to="/"><h3 className="HomeText">Home</h3></Link>)}
+      {click &&(<Link className='text-link'to="/aboutme"><h3 className="AboutMeText">About Me</h3></Link>)}
+      {click &&(<Link className='text-link'to="/portfolio"><h3 className="PortfolioText">Portfolio</h3></Link>)}
+      {click &&(<Link className='text-link'to="/projects"><h3 className="ProjectsText">Projects</h3></Link>)}
+      {click &&(<Link className='text-link'to="/bootcamp"><h3 className="BootcampText">Bootcamp</h3></Link>)}
     </div>
     {/* <div data-dropdown="menu" class="dropdown-menu">
         This is the menu

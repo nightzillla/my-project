@@ -5,14 +5,14 @@ function NFTcard({img, name, href}) {
   return (
     <>
     <div className="flex flex-wrap">
-          <div className='card-javier'>
+          <div className='card-nft'>
             <article className="main-header overflow-hidden rounded-lg shadow-lg">
                 <div className="rounded-lg">
                 <img className="NFT-img"src={img}/>
                 </div>
               <header class="flex items-center justify-between leading-tight p-2 md:p-4 bg-white border">
                   <h6 class="no-underline text-black strong">{name}</h6>
-                  <a class=".text-link"href={href}>Github</a>
+                  <p class=".text-link"href={href}>Github</p>
               </header>
             </article>
           </div>

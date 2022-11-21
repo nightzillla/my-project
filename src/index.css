@@ -42,7 +42,6 @@ h6 {
   font-family: "FastHand"
 }
 
-
 .container {
     position: relative;
     overflow: hidden;
@@ -92,7 +91,7 @@ h6 {
   height: 100%;
   width: 100%;
 }
- 
+
 .section {
   position: relative;
   width: 100%;
@@ -164,7 +163,7 @@ h6 {
 }
 .section2 {
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -172,9 +171,21 @@ h6 {
   flex-wrap: wrap;
   justify-content: center;
   bottom:30%;
-  left:30%;
+  left:40%;
 }
 .text-link {
   color: inherit;
   text-decoration: inherit;
+}
+.AboutMeText:hover {
+  transform: scale(1.1);
+}
+.PortfolioText:hover {
+  transform: scale(1.1);
+}
+.ProjectsText:hover {
+  transform: scale(1.1);
+}
+.BootcampText:hover {
+  transform: scale(1.1);
 }
