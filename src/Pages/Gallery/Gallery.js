@@ -10,6 +10,9 @@ import Pearl from '../../img/Gallery/pearl.jpg'
 import SmokeBomb from '../../img/Gallery/smoke-bomb.jpg'
 import Stairs from '../../img/Gallery/stairs.jpg'
 import Hurricane from '../../img/Gallery/hurricane.jpg'
+import Lonestar from '../../img/Gallery/lonestar.jpg'
+import Portland from '../../img/Gallery/portland.png'
+import Stanely from '../../img/Gallery/stanely.jpg'
 import GalleryNavBar from './GalleryNavBar'
 
 function Gallery() {
@@ -61,6 +64,21 @@ function Gallery() {
         <div className="wrapper">
           <div className="box zoom-in">
           <img src={Hurricane}/>
+          </div>
+        </div>
+        <div className="wrapper">
+          <div className="box zoom-in">
+          <img src={Lonestar}/>
+          </div>
+        </div>
+        <div className="wrapper">
+          <div className="box zoom-in">
+          <img src={Portland}/>
+          </div>
+        </div>
+        <div className="wrapper">
+          <div className="box zoom-in">
+          <img src={Stanely}/>
           </div>
         </div>
       </div>
