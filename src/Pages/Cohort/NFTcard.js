@@ -12,7 +12,7 @@ function NFTcard({img, name, href}) {
                 </div>
               <header class="flex items-center justify-between leading-tight p-2 md:p-4 bg-white border">
                   <h6 class="no-underline text-black strong">{name}</h6>
-                  <a className=".text-link"href={href}>Github</a>
+                  <a className="linkGithub"href={href}>Github</a>
               </header>
             </article>
           </div>

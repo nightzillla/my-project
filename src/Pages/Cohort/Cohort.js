@@ -28,7 +28,7 @@ import Adien from '../../img/NFT/Adien.png'
 import Caleb from '../../img/NFT/Caleb.png'
 import Test from '../../img/NFT/Test.png'
 import Gonzo from '../../img/NFT/Gonzo.png'
-
+import Josh from '../../img/NFT/Josh.jpg'
 function Cohort() {
   return (
     <>
@@ -64,6 +64,8 @@ function Cohort() {
         <NFTcard className="NFTcards"img={Caleb} name={"Caleb"} href={"https://github.com/theCEO1999"}/>
         <NFTcard className="NFTcards"img={Test} name={"Test"} href={"https://github.com/ttekie"}/>
         <NFTcard className="NFTcards"img={Gonzo} name={"Gonzo"} href={"https://github.com/gonzaloovalle"}/>
+        <NFTcard className="NFTcards"img={Josh} name={"Josh"} href={"https://github.com/thevaliantjosh"}/>
+
       </div>
       <div>
       </div>
