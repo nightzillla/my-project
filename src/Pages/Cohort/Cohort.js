@@ -65,7 +65,6 @@ function Cohort() {
         <NFTcard className="NFTcards"img={Test} name={"Test"} href={"https://github.com/ttekie"}/>
         <NFTcard className="NFTcards"img={Gonzo} name={"Gonzo"} href={"https://github.com/gonzaloovalle"}/>
         <NFTcard className="NFTcards"img={Josh} name={"Josh"} href={"https://github.com/thevaliantjosh"}/>
-
       </div>
       <div>
       </div>
