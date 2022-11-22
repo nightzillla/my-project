@@ -2,7 +2,10 @@ import React from 'react'
 
 function Projects() {
   return (
-    <div>Projects</div>
+    <div>
+      <a href="https://nightzillla.github.io/github-finder/">Github-Finder</a>
+      
+    </div>
   )
 }
 
