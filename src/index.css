@@ -163,7 +163,7 @@ h6 {
 }
 .section2 {
   position: absolute;
-  width: 80%;
+  width: 70%;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -177,6 +177,9 @@ h6 {
   color: inherit;
   text-decoration: inherit;
 }
+.HomeText:hover{
+  transform: scale(1.1);
+}
 .AboutMeText:hover {
   transform: scale(1.1);
 }
@@ -188,4 +191,15 @@ h6 {
 }
 .Cohortext:hover {
   transform: scale(1.1);
+}
+.dropdown-parent{
+  position: relative;
+}
+.dn-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+.show .dn-dropdown-menu{
+  display: block;
 }

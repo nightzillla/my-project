@@ -15,25 +15,34 @@ const handlerChange = (e) => {
 
   return (
     <div className="section2">
-    <div data-dropdown="parent" class="dropdown-parent">
-    <div data-dropdown="toggle" class="dropdown-toggle">
-        <div>
-            <img className="hamburger"onClick={handlerChange} src={pngwing} />
+      <div
+        data-dropdown="parent"
+        class={click ? "dropdown-parent show" : "dropdown-parent"}>
+        <div data-dropdown="toggle" class="dropdown-toggle">
+          <div className="hamburgerIconWrapper">
+            <img className="hamburger" onClick={handlerChange} src={pngwing} />
+          </div>
         </div>
+        <div className="dn-dropdown-menu">
+          <Link className="text-link" to="/">
+            <h3 className="HomeText">Home</h3>
+          </Link>
+          <Link className="text-link" to="/aboutme">
+            <h3 className="AboutMeText">About Me</h3>
+          </Link>
+          <Link className="text-link" to="/gallery">
+            <h3 className="GalleryText">Gallery</h3>
+          </Link>
+          <Link className="text-link" to="/projects">
+            <h3 className="ProjectsText">Projects</h3>
+          </Link>
+        </div>
+        {/* <div data-dropdown="menu" class="dropdown-menu">
+      This is the menu
+  </div> */}
+      </div>
     </div>
-    <div>
-      {click &&(<Link className='text-link'to="/"><h3 className="HomeText">Home</h3></Link>)}
-      {click &&(<Link className='text-link'to="/aboutme"><h3 className="AboutMeText">About Me</h3></Link>)}
-      {click &&(<Link className='text-link'to="/gallery"><h3 className="GalleryText">Gallery</h3></Link>)}
-      {click &&(<Link className='text-link'to="/projects"><h3 className="ProjectsText">Projects</h3></Link>)}
-      {click &&(<Link className='text-link'to="/cohort"><h3 className="cohortText">Cohort</h3></Link>)}
-    </div>
-    {/* <div data-dropdown="menu" class="dropdown-menu">
-        This is the menu
-    </div> */}
-    </div>
-    </div>
-  )
+  );
 }
 
 export default CohortNavBar
